@@ -1,0 +1,11 @@
+apiversion: v1
+kind: pod
+metadata:
+   name: multiple
+spec:
+  containers:
+       name: nginx
+       image: nginx
+       image: almalinux
+       name: sidecar
+       command: ["sleep":"200"]
